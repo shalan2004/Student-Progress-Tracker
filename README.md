@@ -9,10 +9,10 @@ Team Contributors:
 - Noura Elsaey
 - Mohamed Ezat
 
-#Project Overview
+# Project Overview
 The Student Progress Tracker app is designed to enhance classroom management for teachers, students, and parents. It streamlines administrative tasks such as assignment creation, attendance tracking, scheduling, live class integration, performance monitoring, tuition management, and book availability. The app also includes offline mode functionality and integrates with Google Classroom to provide a seamless learning experience.
 
-#Problem Statement
+# Problem Statement
 In modern education, students, teachers, and parents face several challenges, including:
 - Lack of Communication: Misunderstandings about assignments, deadlines, and class schedules often occur. Parents may not receive timely updates on their child's academic performance.
 - Organization Issues: Students struggle with keeping track of assignments, deadlines, and exam schedules, leading to missed submissions and lower grades.
@@ -20,7 +20,7 @@ In modern education, students, teachers, and parents face several challenges, in
 - Time Management: Teachers spend excessive time on administrative tasks like grading and attendance tracking instead of focusing on teaching.
 - Lack of Feedback: Students and parents often do not receive timely feedback, making it hard to address learning gaps.
 
-#Goals
+# Goals
 The Student Progress Tracker aims to:
 - Enhance Communication: Provide real-time notifications and updates on assignments, grades, and attendance.
 - Improve Organization: Offer a centralized platform for managing assignments, deadlines, and class schedules.
@@ -28,7 +28,7 @@ The Student Progress Tracker aims to:
 - Simplify Tasks: Automate attendance tracking, grading, and assignment submissions to allow teachers to focus on teaching.
 - Provide Timely Feedback: Generate reports and send notifications to parents about their child's academic progress.
 
-#Features
+# Features
 - Teacher Assignment Submission: Create, edit, and manage assignments with attachments and deadlines.
 - Live Class Integration: Seamless linking with Zoom, Google Meet, or Microsoft Teams, including reminders and breakout room management.
 - Class Schedule & Exam Calendar: A shared calendar with syncing options and color-coded events.
