@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.70" multi-file="no" uid="simp7c37ec5bbdeb47b1b66f0e576e6e2a8a" creation-date="11/03/2024 21:21:08">
+  <meta>
+    <name>Download_Offline</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="initial-node" type="Initial Node" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="activity" type="Activity" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="action" type="Action" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="activity-final-node" type="Activity Final Node" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="initial-node" type="Initial Node" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="activity" type="Activity" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="action" type="Action" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="decision" type="Decision" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="activity-final-node" type="Activity Final Node" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="control-flow" type="Control Flow" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>10</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-c1446250125a45ecb91afef1cbb1387d" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-2bd9ff35d9a1484c8426ce961779f76c" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p8e2c03e30e044c329eb12e908da06331_376532753" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/03/2024 21:21:10</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-activity" id="p92e0d4a7300c42ba97424a7cbef4f542_489795316" name="Download Offline" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-128,140" zoom="1.2">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/03/2024 21:21:10</creation-date>
+          <change-date>11/03/2024 21:31:20</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="4bfb36ab4ca845faad2c02f88f96893c" cid="ELEM001" type="control-flow" creator="" creation-date="11/03/2024 21:23:37" from="c96303dd622b4cc8be255b6f13694708" to="b6d3a3118cbf471dbb165eaf32e04fc7" visibility="package" guard="" weight="">
+            <control-flow from="c96303dd622b4cc8be255b6f13694708" to="b6d3a3118cbf471dbb165eaf32e04fc7" visibility="package" guard="" weight="" />
+          </item>
+          <item id="6cc91b6cf8044661805a83b832df45c9" cid="ELEM007" type="control-flow" creator="" creation-date="11/03/2024 21:26:12" from="008847e80c5a4a268da87a6deada510a" to="c96303dd622b4cc8be255b6f13694708" visibility="package" guard="" weight="">
+            <control-flow from="008847e80c5a4a268da87a6deada510a" to="c96303dd622b4cc8be255b6f13694708" visibility="package" guard="" weight="" />
+          </item>
+          <item id="3d1f217df46643f19f719448ad0f41b6" cid="ELEM002" type="control-flow" creator="" creation-date="11/03/2024 21:24:11" from="ce76fd3662f74c12b9042976a271ff1c" to="008847e80c5a4a268da87a6deada510a" visibility="package" guard="" weight="">
+            <control-flow from="ce76fd3662f74c12b9042976a271ff1c" to="008847e80c5a4a268da87a6deada510a" visibility="package" guard="" weight="" />
+          </item>
+          <item id="814372030cce4bd1b45eb46b837495ea" cid="ELEM006" type="control-flow" creator="" creation-date="11/03/2024 21:25:44" from="b6d3a3118cbf471dbb165eaf32e04fc7" to="86b7c1d0d8e7436c9d8f6fdb9207a07f" visibility="package" guard="" weight="">
+            <control-flow from="b6d3a3118cbf471dbb165eaf32e04fc7" to="86b7c1d0d8e7436c9d8f6fdb9207a07f" visibility="package" guard="" weight="" />
+          </item>
+          <item id="ec97233edc7f4734b93c1c1af6133018" cid="ELEM004" type="control-flow" creator="" creation-date="11/03/2024 21:25:17" from="ce133ddfa5e54f7c9b6820b3086bc028" to="5b3fa38c696b4afebe5b1aec16b27685" visibility="package" guard="" weight="">
+            <control-flow from="ce133ddfa5e54f7c9b6820b3086bc028" to="5b3fa38c696b4afebe5b1aec16b27685" visibility="package" guard="" weight="" />
+          </item>
+          <item id="ce133ddfa5e54f7c9b6820b3086bc028" cid="ACT003" type="action" name="Download material" creator="" creation-date="11/03/2024 21:22:27">
+            <action locally-reentrant="false" />
+          </item>
+          <item id="b6d3a3118cbf471dbb165eaf32e04fc7" cid="ACT002" type="action" name="Tell user to connect to internet" creator="" creation-date="11/03/2024 21:22:23">
+            <action locally-reentrant="false" />
+          </item>
+          <item id="86b7c1d0d8e7436c9d8f6fdb9207a07f" cid="AFN001" type="activity-final-node" name="Final Node" creator="" creation-date="11/03/2024 21:22:41" />
+          <item id="b8455116b1d84e42ab3ab2d5d800837c" cid="ELEM005" type="control-flow" creator="" creation-date="11/03/2024 21:25:22" from="5b3fa38c696b4afebe5b1aec16b27685" to="86b7c1d0d8e7436c9d8f6fdb9207a07f" visibility="package" guard="" weight="">
+            <control-flow from="5b3fa38c696b4afebe5b1aec16b27685" to="86b7c1d0d8e7436c9d8f6fdb9207a07f" visibility="package" guard="" weight="" />
+          </item>
+          <item id="520e4225f2564089b8593310be9c8f94" cid="ELEM003" type="control-flow" creator="" creation-date="11/03/2024 21:25:03" from="c96303dd622b4cc8be255b6f13694708" to="ce133ddfa5e54f7c9b6820b3086bc028" visibility="package" guard="" weight="">
+            <control-flow from="c96303dd622b4cc8be255b6f13694708" to="ce133ddfa5e54f7c9b6820b3086bc028" visibility="package" guard="" weight="" />
+          </item>
+          <item id="5b3fa38c696b4afebe5b1aec16b27685" cid="ACT004" type="action" name="Material saved in offline mode" creator="" creation-date="11/03/2024 21:22:32">
+            <action locally-reentrant="false" />
+          </item>
+          <item id="ce76fd3662f74c12b9042976a271ff1c" cid="IN001" type="initial-node" name="Initial Node" creator="" creation-date="11/03/2024 21:21:16" />
+          <item id="008847e80c5a4a268da87a6deada510a" cid="ACT001" type="action" name="Select material" creator="" creation-date="11/03/2024 21:21:56">
+            <action locally-reentrant="false" />
+          </item>
+          <item id="c96303dd622b4cc8be255b6f13694708" cid="DC001" type="decision" name="Is internet available?" creator="" creation-date="11/03/2024 21:22:10" visibility="undefined" />
+        </abstract-items>
+        <layer id="a1802a0c5930410582e8f6575742b877" name="Default" visible="true" enabled="true" locked="false">
+          <item id="ce76fd3662f74c12b9042976a271ff1c" iid="bd3c2be8804d4b56809d9acf6017f7fa" creation-date="11/03/2024 21:21:16" order-index="0" type="entity">
+            <layout name-position="0,-1.17383" name-width="139" auto-anchor="true" label-attached="false" ax="534" ay="197" awidth="25" aheight="25" x="534" y="197" width="25" height="25" />
+          </item>
+          <item id="008847e80c5a4a268da87a6deada510a" iid="db29803eb4ad40b181d925e7416e39e1" creation-date="11/03/2024 21:21:56" order-index="2" type="entity">
+            <layout ax="483" ay="279" awidth="127" aheight="50" x="483" y="279" width="127" height="50" expanded="483,279,127,50" collapsed="0,0,0,0" />
+          </item>
+          <item id="c96303dd622b4cc8be255b6f13694708" iid="3e8c2f567d444bc39acca68455293670" creation-date="11/03/2024 21:22:10" order-index="3" type="entity">
+            <layout name-position="7,4.000002" name-anchor="bottom" name-width="156" auto-anchor="true" label-attached="false" ax="526.5" ay="371" awidth="40" aheight="60" x="526.5" y="371" width="40" height="60" />
+          </item>
+          <item id="b6d3a3118cbf471dbb165eaf32e04fc7" iid="d262742ebf784d6c85cd41d7cfa3506a" creation-date="11/03/2024 21:22:23" order-index="4" type="entity">
+            <layout ax="593" ay="474" awidth="239" aheight="50" x="593" y="474" width="100" height="50" expanded="593,474,239,50" collapsed="0,0,0,0" />
+          </item>
+          <item id="ce133ddfa5e54f7c9b6820b3086bc028" iid="a5df87a6345944d992a9424b50bf15ac" creation-date="11/03/2024 21:22:27" order-index="5" type="entity">
+            <layout ax="312" ay="474" awidth="156" aheight="50" x="312" y="474" width="156" height="50" expanded="312,474,156,50" collapsed="0,0,0,0" />
+          </item>
+          <item id="5b3fa38c696b4afebe5b1aec16b27685" iid="026ee58a7f734d4b8bec73771afaf2ed" creation-date="11/03/2024 21:22:32" order-index="6" type="entity">
+            <layout ax="271.5" ay="571" awidth="237" aheight="50" x="271.5" y="571" width="100" height="50" expanded="271.5,571,237,50" collapsed="0,0,0,0" />
+          </item>
+          <item id="86b7c1d0d8e7436c9d8f6fdb9207a07f" iid="2a260334103142c3a0bafb5dbc3be8b8" creation-date="11/03/2024 21:22:41" order-index="7" type="entity">
+            <layout name-position="0,10.000002" name-anchor="bottom" name-width="152" auto-anchor="true" label-attached="false" ax="539.5" ay="665" awidth="25" aheight="25" x="539.5" y="665" width="25" height="25" />
+          </item>
+          <item id="4bfb36ab4ca845faad2c02f88f96893c" iid="5f04f563230440e89d756e7d18e45737" creation-date="11/03/2024 21:23:37" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="566" y1="401" x2="712" y2="474" start-border-pos="0.375" end-border-pos="0.125" start-local-pos="30" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="566" y="401" />
+                <point x="712" y="401" />
+                <point x="712" y="474" />
+              </points>
+            </layout>
+            <relation from="c96303dd622b4cc8be255b6f13694708" from-iid="3e8c2f567d444bc39acca68455293670" to="b6d3a3118cbf471dbb165eaf32e04fc7" to-iid="d262742ebf784d6c85cd41d7cfa3506a" />
+          </item>
+          <item id="3d1f217df46643f19f719448ad0f41b6" iid="1624b23c6940438a8e7b8b6fa29259d9" creation-date="11/03/2024 21:24:11" order-index="9" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="546" y1="222" x2="546" y2="279" start-border-pos="0.63" end-border-pos="0.12375" end-local-pos="61.5" name-position="0,20">
+              <points>
+                <point x="546" y="222" />
+                <point x="546" y="279" />
+              </points>
+            </layout>
+            <relation from="ce76fd3662f74c12b9042976a271ff1c" from-iid="bd3c2be8804d4b56809d9acf6017f7fa" to="008847e80c5a4a268da87a6deada510a" to-iid="db29803eb4ad40b181d925e7416e39e1" />
+          </item>
+          <item id="520e4225f2564089b8593310be9c8f94" iid="df809d8234544dae851adb8424b03379" creation-date="11/03/2024 21:25:03" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="526" y1="401" x2="390" y2="474" start-border-pos="0.875" end-border-pos="0.125" start-local-pos="30" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="526" y="401" />
+                <point x="390" y="401" />
+                <point x="390" y="474" />
+              </points>
+            </layout>
+            <relation from="c96303dd622b4cc8be255b6f13694708" from-iid="3e8c2f567d444bc39acca68455293670" to="ce133ddfa5e54f7c9b6820b3086bc028" to-iid="a5df87a6345944d992a9424b50bf15ac" />
+          </item>
+          <item id="ec97233edc7f4734b93c1c1af6133018" iid="be720665bc2c4de9a7d83587ac76f364" creation-date="11/03/2024 21:25:17" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="390" y1="524" x2="390" y2="571" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="50" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="390" y="524" />
+                <point x="390" y="571" />
+              </points>
+            </layout>
+            <relation from="ce133ddfa5e54f7c9b6820b3086bc028" from-iid="a5df87a6345944d992a9424b50bf15ac" to="5b3fa38c696b4afebe5b1aec16b27685" to-iid="026ee58a7f734d4b8bec73771afaf2ed" />
+          </item>
+          <item id="b8455116b1d84e42ab3ab2d5d800837c" iid="579bafd67b0043c09992614b9def8d6c" creation-date="11/03/2024 21:25:22" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="390" y1="621" x2="540" y2="678" start-border-pos="0.625" end-border-pos="0.87" start-local-pos="50" name-position="0,20">
+              <points>
+                <point x="390" y="621" />
+                <point x="390" y="677.5" />
+                <point x="540" y="678" />
+              </points>
+            </layout>
+            <relation from="5b3fa38c696b4afebe5b1aec16b27685" from-iid="026ee58a7f734d4b8bec73771afaf2ed" to="86b7c1d0d8e7436c9d8f6fdb9207a07f" to-iid="2a260334103142c3a0bafb5dbc3be8b8" />
+          </item>
+          <item id="814372030cce4bd1b45eb46b837495ea" iid="f7f75b9d57cb465ebd6e858558ae98b6" creation-date="11/03/2024 21:25:44" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="712" y1="524" x2="564" y2="678" start-border-pos="0.625" end-border-pos="0.3792547607421875" start-local-pos="50" name-position="0,20">
+              <points>
+                <point x="712" y="524" />
+                <point x="713" y="677" />
+                <point x="564" y="678" />
+              </points>
+            </layout>
+            <relation from="b6d3a3118cbf471dbb165eaf32e04fc7" from-iid="d262742ebf784d6c85cd41d7cfa3506a" to="86b7c1d0d8e7436c9d8f6fdb9207a07f" to-iid="2a260334103142c3a0bafb5dbc3be8b8" />
+          </item>
+          <item id="6cc91b6cf8044661805a83b832df45c9" iid="15d3ccc1466c403bb44379f56870231b" creation-date="11/03/2024 21:26:12" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="546" y1="329" x2="546" y2="371" start-border-pos="0.62625" end-border-pos="0.121875" start-local-pos="49.5" end-local-pos="19.5" name-position="0,20">
+              <points>
+                <point x="546" y="329" />
+                <point x="546" y="371" />
+              </points>
+            </layout>
+            <relation from="008847e80c5a4a268da87a6deada510a" from-iid="db29803eb4ad40b181d925e7416e39e1" to="c96303dd622b4cc8be255b6f13694708" to-iid="3e8c2f567d444bc39acca68455293670" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.70" multi-file="no" uid="simp9a60ca04a51849dfbd0e98ab227ba682" creation-date="10/29/2024 01:20:27">
+  <meta>
+    <name>Attend_Live_Classes</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="sequence-action" type="Message" />
+        <value>35</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="Execution Specification" />
+        <value>39</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="sequence-action" type="Message" />
+        <value>40</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="Execution Specification" />
+        <value>42</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlSequenceDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-33ceb961492f4dffb230e59af6fae245" name="" task-id-sequence="0">
+    <working-schedule uid="ws-e4b0752c29344dd380d92f5dd2aadcec" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-4de8655cf64f47f491c790fd1964cf92" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-f8ccc449383c4e5bbe92a56b519c883a" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items>
+    <item id="0f56290f92a948af95930d7751b388d6" cid="ES039" type="activation-bar" name="ExecutionSpecification38" owner="b4b85951fe3c4fb3ab2e0f8475abe6ad" creation-date="10/29/2024 02:07:53" visibility="undefined">
+      <activation-bar lifeline-ref="b4b85951fe3c4fb3ab2e0f8475abe6ad" />
+    </item>
+    <item id="b4b85951fe3c4fb3ab2e0f8475abe6ad" cid="LL005" type="lifeline" name="Application" creation-date="10/29/2024 02:00:09" visibility="undefined">
+      <owned-items />
+      <lifeline classifier-name="" selector="" is-multi-object="false" />
+    </item>
+    <item id="7c02fa8cd6184a338ee92a54502b182f" cid="ES032" type="activation-bar" name="ExecutionSpecification31" owner="2207737cf04c4eb185b1c46e9a9d0b5f" creation-date="10/29/2024 02:04:09" visibility="undefined" />
+    <item id="b2595782b3b04edca8d511da0272a047" cid="ES021" type="activation-bar" name="ExecutionSpecification21" owner="a2abe065cda94aeeb59c4d3afc544fdc" creation-date="10/29/2024 01:46:15" visibility="undefined" />
+    <item id="749f76635a2042dfbd295961cd94e0ea" cid="ES041" type="activation-bar" name="ExecutionSpecification39" owner="b4b85951fe3c4fb3ab2e0f8475abe6ad" creation-date="10/29/2024 02:21:28" visibility="undefined">
+      <activation-bar lifeline-ref="b4b85951fe3c4fb3ab2e0f8475abe6ad" />
+    </item>
+    <item id="a10cc0e1630a4f6bb63124f586916168" cid="ES031" type="activation-bar" name="ExecutionSpecification30" owner="b4b85951fe3c4fb3ab2e0f8475abe6ad" creation-date="10/29/2024 02:04:09" visibility="undefined">
+      <activation-bar lifeline-ref="b4b85951fe3c4fb3ab2e0f8475abe6ad" />
+    </item>
+    <item id="d777bb6eb88c4a3dbb76a57b6ad2081b" cid="ES038" type="activation-bar" name="ExecutionSpecification37" creation-date="10/29/2024 02:07:53" visibility="undefined" />
+    <item id="b0e8c85798b948bab9cd166e034d174d" cid="ES027" type="activation-bar" name="ExecutionSpecification26" creation-date="10/29/2024 02:03:03" visibility="undefined" />
+    <item id="2207737cf04c4eb185b1c46e9a9d0b5f" cid="AC005" type="actor" name="Parent" creation-date="10/29/2024 01:35:27" visibility="undefined">
+      <owned-items />
+    </item>
+    <item id="1a05db380621464d81b040b7ac21384e" cid="SM012" type="sequence-action" name="Message12" creation-date="10/29/2024 01:46:13" from="b2595782b3b04edca8d511da0272a047" to="749f76635a2042dfbd295961cd94e0ea" visibility="package">
+      <sequence-action type="send" message="Make any event (EX: absence)" is-asynchronous="false" return-value="" assign-to-variable="">
+        <parameters />
+      </sequence-action>
+    </item>
+    <item id="0a71a24e95d441a69a7681e1e4370dd4" cid="SM028" type="sequence-action" name="Message26" creation-date="10/29/2024 02:04:07" from="a10cc0e1630a4f6bb63124f586916168" to="7c02fa8cd6184a338ee92a54502b182f" visibility="package">
+      <sequence-action type="call" message="Display notification to parent" is-asynchronous="false" return-value="" assign-to-variable="">
+        <parameters />
+      </sequence-action>
+    </item>
+    <item id="bcc7b274779e48e7bdd62372f2a5fc34" cid="ES040" type="activation-bar" name="ExecutionSpecification13" owner="a2abe065cda94aeeb59c4d3afc544fdc" creation-date="10/29/2024 02:20:58" visibility="undefined" />
+    <item id="a2abe065cda94aeeb59c4d3afc544fdc" cid="AC006" type="actor" name="Student" creation-date="10/29/2024 01:45:19" visibility="undefined">
+      <owned-items />
+    </item>
+    <item id="0c906cf730cb473ca3c31df0564c35ec" cid="SM034" type="sequence-action" name="Message32" creation-date="10/29/2024 02:04:30" to="9f0ace34a0a64b7d8c7b0c1937fdca65" visibility="package">
+      <sequence-action type="reply" message="Receive and view notification" is-asynchronous="false" return-value="" assign-to-variable="">
+        <parameters />
+      </sequence-action>
+    </item>
+    <item id="9f0ace34a0a64b7d8c7b0c1937fdca65" cid="ES034" type="activation-bar" name="ExecutionSpecification33" owner="b4b85951fe3c4fb3ab2e0f8475abe6ad" creation-date="10/29/2024 02:04:32" visibility="undefined">
+      <activation-bar lifeline-ref="b4b85951fe3c4fb3ab2e0f8475abe6ad" />
+    </item>
+    <item id="f60f2f1ea1ea43f88b82a5141e1da609" cid="ES035" type="activation-bar" name="ExecutionSpecification34" owner="2207737cf04c4eb185b1c46e9a9d0b5f" creation-date="10/29/2024 02:05:27" visibility="undefined" />
+  </items>
+  <models>
+    <model id="pae7c1cc1a9614eb9b2cb460b9f996002_118677599" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/29/2024 01:20:30</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-sequence" id="p7fc22186f60b421b9d3967a769f5d004_282252898" name="Attend_Live_Classes" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="0,4">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/29/2024 01:20:30</creation-date>
+          <change-date>10/29/2024 01:33:04</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="c3a1143e870f40628d0b79c5c6ee8ae6" cid="ES006" type="activation-bar" name="ExecutionSpecification6" owner="e7e5e7af0b5e4819b250062486c296eb" creator="" creation-date="10/29/2024 01:23:39" visibility="undefined" />
+          <item id="bdca29d8d080407ca47508e93ce6c0b4" cid="ES011" type="activation-bar" name="ExecutionSpecification11" owner="ce93fbcc195b4668b8698a355b7a984d" creator="" creation-date="10/29/2024 01:26:15" visibility="undefined" />
+          <item id="453e40a954754a86b2e866e4da0f6f7b" cid="ES012" type="activation-bar" name="ExecutionSpecification12" owner="6de599efe5b44fdebf969741262cf0b9" creator="" creation-date="10/29/2024 01:26:15" visibility="undefined">
+            <activation-bar lifeline-ref="6de599efe5b44fdebf969741262cf0b9" />
+          </item>
+          <item id="a71ad6a556fd4b88b2356a68420b0382" cid="AC002" type="actor" name="Student" creator="" creation-date="10/29/2024 01:20:57" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="848160e4dd364c9fa166d96f7f4cbad6" cid="ES008" type="activation-bar" name="ExecutionSpecification8" owner="6de599efe5b44fdebf969741262cf0b9" creator="" creation-date="10/29/2024 01:24:49" visibility="undefined">
+            <activation-bar lifeline-ref="6de599efe5b44fdebf969741262cf0b9" />
+          </item>
+          <item id="b67876ae201a446f9b0d88e579dcdcb6" cid="ES015" type="activation-bar" name="ExecutionSpecification15" owner="6de599efe5b44fdebf969741262cf0b9" creator="" creation-date="10/29/2024 01:32:58" visibility="undefined">
+            <activation-bar lifeline-ref="6de599efe5b44fdebf969741262cf0b9" />
+          </item>
+          <item id="d932183520b64afa812490983df83789" cid="ES001" type="activation-bar" name="ExecutionSpecification1" owner="ce93fbcc195b4668b8698a355b7a984d" creator="" creation-date="10/29/2024 01:22:11" visibility="undefined" />
+          <item id="764c65fefb644bb9b897d481f4ac311f" cid="ES005" type="activation-bar" name="ExecutionSpecification5" owner="6de599efe5b44fdebf969741262cf0b9" creator="" creation-date="10/29/2024 01:23:39" visibility="undefined">
+            <activation-bar lifeline-ref="6de599efe5b44fdebf969741262cf0b9" />
+          </item>
+          <item id="6de599efe5b44fdebf969741262cf0b9" cid="LL001" type="lifeline" name="Application" creator="" creation-date="10/29/2024 01:21:47" visibility="undefined">
+            <owned-items />
+            <lifeline classifier-name="" selector="" is-multi-object="false" />
+          </item>
+          <item id="fea999f590564e638e0deeb0edd127bf" cid="ES003" type="activation-bar" name="ExecutionSpecification3" owner="6de599efe5b44fdebf969741262cf0b9" creator="" creation-date="10/29/2024 01:23:30" visibility="undefined">
+            <activation-bar lifeline-ref="6de599efe5b44fdebf969741262cf0b9" />
+          </item>
+          <item id="bf6ae3b3b7ef45edbca6de7c990ccaa8" cid="SM002" type="sequence-action" name="Message2" creator="" creation-date="10/29/2024 01:23:22" from="fea999f590564e638e0deeb0edd127bf" to="3cb6523b04734c51a3e46041549c38d5" visibility="package">
+            <sequence-action type="reply" message="Send meeting link notification" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="eea6b5c5a21f4b268309d5ebaae2fc6f" cid="SM003" type="sequence-action" name="Message3" creator="" creation-date="10/29/2024 01:23:37" from="764c65fefb644bb9b897d481f4ac311f" to="c3a1143e870f40628d0b79c5c6ee8ae6" visibility="package">
+            <sequence-action type="reply" message="Send meeting link notification" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="8597531a5f7345dbb3295a1a12198c92" cid="ES009" type="activation-bar" name="ExecutionSpecification9" owner="e7e5e7af0b5e4819b250062486c296eb" creator="" creation-date="10/29/2024 01:25:00" visibility="undefined" />
+          <item id="ce93fbcc195b4668b8698a355b7a984d" cid="AC001" type="actor" name="Teacher" creator="" creation-date="10/29/2024 01:20:53" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="c617d56f308141b09d9eefc104d4d7c2" cid="LL003" type="lifeline" name="DB" creator="" creation-date="10/29/2024 01:32:15" visibility="undefined">
+            <owned-items />
+            <lifeline classifier-name="" selector="" is-multi-object="false" />
+          </item>
+          <item id="e7e5e7af0b5e4819b250062486c296eb" cid="AC003" type="actor" name="Assistant" creator="" creation-date="10/29/2024 01:21:17" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="ae0830bf1e184f44bba4e64828aef865" cid="ES007" type="activation-bar" name="ExecutionSpecification7" owner="a71ad6a556fd4b88b2356a68420b0382" creator="" creation-date="10/29/2024 01:24:49" visibility="undefined" />
+          <item id="39dc7561dcfd45ddb7bebd21e3137ba6" cid="SM001" type="sequence-action" name="Message1" creator="" creation-date="10/29/2024 01:22:10" from="d932183520b64afa812490983df83789" to="24a35dafdf6443f188282fcba1475529" visibility="package">
+            <sequence-action type="call" message="Start live class" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="0c77d8fd52184ae6b3b54d0b760246fa" cid="ES010" type="activation-bar" name="ExecutionSpecification10" owner="6de599efe5b44fdebf969741262cf0b9" creator="" creation-date="10/29/2024 01:25:00" visibility="undefined">
+            <activation-bar lifeline-ref="6de599efe5b44fdebf969741262cf0b9" />
+          </item>
+          <item id="a155a1ab3e9f47cdba121b56b3bbea99" cid="SM006" type="sequence-action" name="Message6" creator="" creation-date="10/29/2024 01:24:58" from="8597531a5f7345dbb3295a1a12198c92" to="0c77d8fd52184ae6b3b54d0b760246fa" visibility="package">
+            <sequence-action type="call" message="Join live class" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="3cb6523b04734c51a3e46041549c38d5" cid="ES004" type="activation-bar" name="ExecutionSpecification4" owner="a71ad6a556fd4b88b2356a68420b0382" creator="" creation-date="10/29/2024 01:23:30" visibility="undefined" />
+          <item id="24a35dafdf6443f188282fcba1475529" cid="ES002" type="activation-bar" name="ExecutionSpecification2" owner="6de599efe5b44fdebf969741262cf0b9" creator="" creation-date="10/29/2024 01:22:11" visibility="undefined">
+            <activation-bar lifeline-ref="6de599efe5b44fdebf969741262cf0b9" />
+          </item>
+          <item id="d4305ab9a29148169afa4567ae324370" cid="SM009" type="sequence-action" name="Message9" creator="" creation-date="10/29/2024 01:32:56" to="56501b36ea514e749154e9b1c22d3d2b" visibility="package">
+            <sequence-action type="call" message="Documenting attendance&#xD;&#xA;" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="006187ee276f4de892b04528e64bf789" cid="SM007" type="sequence-action" name="Message7" creator="" creation-date="10/29/2024 01:26:11" from="bdca29d8d080407ca47508e93ce6c0b4" to="453e40a954754a86b2e866e4da0f6f7b" visibility="package">
+            <sequence-action type="call" message="Close meeting" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="56501b36ea514e749154e9b1c22d3d2b" cid="ES016" type="activation-bar" name="ExecutionSpecification16" owner="c617d56f308141b09d9eefc104d4d7c2" creator="" creation-date="10/29/2024 01:32:58" visibility="undefined">
+            <activation-bar lifeline-ref="c617d56f308141b09d9eefc104d4d7c2" />
+          </item>
+          <item id="84b1e9229f3f4f70bf31868ebb042301" cid="SM004" type="sequence-action" name="Message4" creator="" creation-date="10/29/2024 01:24:47" from="ae0830bf1e184f44bba4e64828aef865" to="848160e4dd364c9fa166d96f7f4cbad6" visibility="package">
+            <sequence-action type="call" message="Join live class" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+        </abstract-items>
+        <layer id="052e23f88a3448c09b49b883eb7fa816" name="Default" visible="true" enabled="true" locked="false">
+          <item id="ce93fbcc195b4668b8698a355b7a984d" iid="e71b66e457cb40d08b27ea1c595e3916" creation-date="10/29/2024 01:20:53" order-index="0" type="lifeline">
+            <layout ax="245" ay="56" awidth="140" aheight="667" x="245" y="56" width="140" height="667" expanded="245,56,140,667" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="a71ad6a556fd4b88b2356a68420b0382" iid="f58e762fb02648e1a830eb924f785004" creation-date="10/29/2024 01:20:57" order-index="1" type="lifeline">
+            <layout ax="436" ay="56" awidth="140" aheight="677" x="436" y="56" width="140" height="500" expanded="436,56,140,677" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="e7e5e7af0b5e4819b250062486c296eb" iid="6c28dca85a0746afa168b1eb81921bc4" creation-date="10/29/2024 01:21:17" order-index="2" type="lifeline">
+            <layout ax="627" ay="56" awidth="140" aheight="677" x="627" y="56" width="140" height="500" expanded="627,56,140,677" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="6de599efe5b44fdebf969741262cf0b9" iid="832f3375e78c441cae6a397d325752e1" creation-date="10/29/2024 01:21:47" order-index="3" type="lifeline">
+            <layout ax="883" ay="56" awidth="140" aheight="677" x="883" y="56" width="140" height="500" expanded="883,56,140,677" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="39dc7561dcfd45ddb7bebd21e3137ba6" iid="8ec8cc53c3444eda8a71d85ebe988d56" creation-date="10/29/2024 01:22:10" order-index="4" type="relation">
+            <layout message-x="634" message-y="185" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="325" y1="165" x2="943" y2="165" start-border-pos="0.251" end-border-pos="0.999" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="325" y="165" />
+                <point x="943" y="165" />
+              </points>
+            </layout>
+            <relation from="d932183520b64afa812490983df83789" from-iid="b67ca2f7091b46a2b10c2e2cf9df8dbc" to="24a35dafdf6443f188282fcba1475529" to-iid="e462b58c4d6a42649f56e93c39dcccfe" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="d932183520b64afa812490983df83789" iid="b67ca2f7091b46a2b10c2e2cf9df8dbc" container="ce93fbcc195b4668b8698a355b7a984d" container-iid="e71b66e457cb40d08b27ea1c595e3916" creation-date="10/29/2024 01:22:11" order-index="5" type="entity">
+            <layout ax="305" ay="165" awidth="20" aheight="40" x="305" y="165" width="20" height="40" expanded="305,165,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="24a35dafdf6443f188282fcba1475529" iid="e462b58c4d6a42649f56e93c39dcccfe" container="6de599efe5b44fdebf969741262cf0b9" container-iid="832f3375e78c441cae6a397d325752e1" creation-date="10/29/2024 01:22:11" order-index="6" type="entity">
+            <layout ax="943" ay="165" awidth="20" aheight="40" x="943" y="165" width="20" height="40" expanded="943,165,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="bf6ae3b3b7ef45edbca6de7c990ccaa8" iid="919a89a593b44251bac80713af70dc85" creation-date="10/29/2024 01:23:22" order-index="7" type="relation">
+            <layout message-x="730" message-y="244" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="943" y1="224" x2="516" y2="224" start-border-pos="0.999" end-border-pos="0.251" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="943" y="224" />
+                <point x="516" y="224" />
+              </points>
+            </layout>
+            <relation from="fea999f590564e638e0deeb0edd127bf" from-iid="ea14e9f578764f609a4d6dbf400538c2" to="3cb6523b04734c51a3e46041549c38d5" to-iid="59541d7af64e450491199b9fa4956563" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="fea999f590564e638e0deeb0edd127bf" iid="ea14e9f578764f609a4d6dbf400538c2" container="6de599efe5b44fdebf969741262cf0b9" container-iid="832f3375e78c441cae6a397d325752e1" creation-date="10/29/2024 01:23:30" order-index="8" type="entity">
+            <layout ax="943" ay="224" awidth="20" aheight="40" x="943" y="224" width="20" height="40" expanded="943,224,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="3cb6523b04734c51a3e46041549c38d5" iid="59541d7af64e450491199b9fa4956563" container="a71ad6a556fd4b88b2356a68420b0382" container-iid="f58e762fb02648e1a830eb924f785004" creation-date="10/29/2024 01:23:30" order-index="9" type="entity">
+            <layout ax="496" ay="224" awidth="20" aheight="40" x="496" y="224" width="20" height="40" expanded="496,224,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="eea6b5c5a21f4b268309d5ebaae2fc6f" iid="a2217308cc5c4dff82956d06ddaa83f0" creation-date="10/29/2024 01:23:37" order-index="10" type="relation">
+            <layout message-x="825" message-y="326" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="943" y1="306" x2="707" y2="306" start-border-pos="0.999" end-border-pos="0.251" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="943" y="306" />
+                <point x="707" y="306" />
+              </points>
+            </layout>
+            <relation from="764c65fefb644bb9b897d481f4ac311f" from-iid="f494cc8b87e04f7e8ad949a4f096eb3e" to="c3a1143e870f40628d0b79c5c6ee8ae6" to-iid="6d483834beba41fbb5b0f7a10f3a967b" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="764c65fefb644bb9b897d481f4ac311f" iid="f494cc8b87e04f7e8ad949a4f096eb3e" container="6de599efe5b44fdebf969741262cf0b9" container-iid="832f3375e78c441cae6a397d325752e1" creation-date="10/29/2024 01:23:39" order-index="11" type="entity">
+            <layout ax="943" ay="306" awidth="20" aheight="40" x="943" y="306" width="20" height="40" expanded="943,306,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="c3a1143e870f40628d0b79c5c6ee8ae6" iid="6d483834beba41fbb5b0f7a10f3a967b" container="e7e5e7af0b5e4819b250062486c296eb" container-iid="6c28dca85a0746afa168b1eb81921bc4" creation-date="10/29/2024 01:23:39" order-index="12" type="entity">
+            <layout ax="687" ay="306" awidth="20" aheight="40" x="687" y="306" width="20" height="40" expanded="687,306,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="84b1e9229f3f4f70bf31868ebb042301" iid="d048ee1224584d589113e275c632091d" creation-date="10/29/2024 01:24:47" order-index="13" type="relation">
+            <layout message-x="730" message-y="403" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="516" y1="383" x2="943" y2="383" start-border-pos="0.251" end-border-pos="0.999" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="516" y="383" />
+                <point x="943" y="383" />
+              </points>
+            </layout>
+            <relation from="ae0830bf1e184f44bba4e64828aef865" from-iid="4fe4cf0122944f038413841ccf080257" to="848160e4dd364c9fa166d96f7f4cbad6" to-iid="e57133e2f3604aae8923da68a522d838" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="ae0830bf1e184f44bba4e64828aef865" iid="4fe4cf0122944f038413841ccf080257" container="a71ad6a556fd4b88b2356a68420b0382" container-iid="f58e762fb02648e1a830eb924f785004" creation-date="10/29/2024 01:24:49" order-index="14" type="entity">
+            <layout ax="496" ay="383" awidth="20" aheight="40" x="496" y="383" width="20" height="40" expanded="496,383,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="848160e4dd364c9fa166d96f7f4cbad6" iid="e57133e2f3604aae8923da68a522d838" container="6de599efe5b44fdebf969741262cf0b9" container-iid="832f3375e78c441cae6a397d325752e1" creation-date="10/29/2024 01:24:49" order-index="15" type="entity">
+            <layout ax="943" ay="383" awidth="20" aheight="40" x="943" y="383" width="20" height="40" expanded="943,383,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="a155a1ab3e9f47cdba121b56b3bbea99" iid="f6b0291221324be5b018b5a97aaf80a8" creation-date="10/29/2024 01:24:58" order-index="16" type="relation">
+            <layout message-x="825" message-y="484" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="707" y1="464" x2="943" y2="464" start-border-pos="0.251" end-border-pos="0.999" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="707" y="464" />
+                <point x="943" y="464" />
+              </points>
+            </layout>
+            <relation from="8597531a5f7345dbb3295a1a12198c92" from-iid="2dd67d03bc584c1480797aa9f5353045" to="0c77d8fd52184ae6b3b54d0b760246fa" to-iid="df7670a188844d09a8d406226ae5b993" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="8597531a5f7345dbb3295a1a12198c92" iid="2dd67d03bc584c1480797aa9f5353045" container="e7e5e7af0b5e4819b250062486c296eb" container-iid="6c28dca85a0746afa168b1eb81921bc4" creation-date="10/29/2024 01:25:00" order-index="17" type="entity">
+            <layout ax="687" ay="464" awidth="20" aheight="40" x="687" y="464" width="20" height="40" expanded="687,464,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="0c77d8fd52184ae6b3b54d0b760246fa" iid="df7670a188844d09a8d406226ae5b993" container="6de599efe5b44fdebf969741262cf0b9" container-iid="832f3375e78c441cae6a397d325752e1" creation-date="10/29/2024 01:25:00" order-index="18" type="entity">
+            <layout ax="943" ay="464" awidth="20" aheight="40" x="943" y="464" width="20" height="40" expanded="943,464,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="006187ee276f4de892b04528e64bf789" iid="b585d20d24aa4d16a86d93359be39658" creation-date="10/29/2024 01:26:11" order-index="19" type="relation">
+            <layout message-x="634" message-y="565" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="325" y1="545" x2="943" y2="545" start-border-pos="0.251" end-border-pos="0.999" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="325" y="545" />
+                <point x="943" y="545" />
+              </points>
+            </layout>
+            <relation from="bdca29d8d080407ca47508e93ce6c0b4" from-iid="0c7d7e5069f64d228142ecabc66ea399" to="453e40a954754a86b2e866e4da0f6f7b" to-iid="c858426b2ec84f009d3de40233568e29" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="bdca29d8d080407ca47508e93ce6c0b4" iid="0c7d7e5069f64d228142ecabc66ea399" container="ce93fbcc195b4668b8698a355b7a984d" container-iid="e71b66e457cb40d08b27ea1c595e3916" creation-date="10/29/2024 01:26:15" order-index="20" type="entity">
+            <layout ax="305" ay="545" awidth="20" aheight="40" x="305" y="545" width="20" height="40" expanded="305,545,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="453e40a954754a86b2e866e4da0f6f7b" iid="c858426b2ec84f009d3de40233568e29" container="6de599efe5b44fdebf969741262cf0b9" container-iid="832f3375e78c441cae6a397d325752e1" creation-date="10/29/2024 01:26:15" order-index="21" type="entity">
+            <layout ax="943" ay="545" awidth="20" aheight="40" x="943" y="545" width="20" height="40" expanded="943,545,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="c617d56f308141b09d9eefc104d4d7c2" iid="720a642f3dd64c8ca272e25d7195b886" creation-date="10/29/2024 01:32:15" order-index="22" type="lifeline">
+            <layout ax="1112" ay="56" awidth="140" aheight="667" x="1112" y="56" width="140" height="667" expanded="1112,56,140,667" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="d4305ab9a29148169afa4567ae324370" iid="741f669d61324eda8efd1b9b5784bc0d" creation-date="10/29/2024 01:32:56" order-index="23" type="relation">
+            <layout message-x="1068" message-y="605" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="963" y1="585" x2="1172" y2="585" start-border-pos="-1" end-border-pos="0.999" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="963" y="585" />
+                <point x="1172" y="585" />
+              </points>
+            </layout>
+            <relation to="56501b36ea514e749154e9b1c22d3d2b" to-iid="47bcbbf7947a4ea5ac9822dbee09aeab" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="56501b36ea514e749154e9b1c22d3d2b" iid="47bcbbf7947a4ea5ac9822dbee09aeab" container="c617d56f308141b09d9eefc104d4d7c2" container-iid="720a642f3dd64c8ca272e25d7195b886" creation-date="10/29/2024 01:32:58" order-index="25" type="entity">
+            <layout ax="1172" ay="585" awidth="20" aheight="40" x="1172" y="585" width="20" height="40" expanded="0,0,0,0" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

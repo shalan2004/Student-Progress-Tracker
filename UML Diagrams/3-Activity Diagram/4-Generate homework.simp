@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.70" multi-file="no" uid="simp604040dc91e744a9bb789cd00db112ec" creation-date="11/03/2024 22:35:51">
+  <meta>
+    <name>Generate homwork</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names />
+    <entity-ids />
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-c82ca0c519e14efcb9654489d732e4a3" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-a37e805b693b40bfb67b25ad2280bf87" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items>
+    <item id="74ad8111bfe545b2a85402f8b3bcda60" cid="AFN001" type="activity-final-node" name="ActivityFinalNode1" creation-date="11/03/2024 21:21:37" visibility="undefined" />
+    <item id="7a7c4af799424fb7919509caaaba8998" cid="A003" type="activity" name="Generate report" creation-date="11/03/2024 21:18:13" visibility="undefined">
+      <activity />
+    </item>
+    <item id="c6a3349e2e7741bf96a513888cfa0b54" cid="A004" type="activity" name="Send report to student and parent" creation-date="11/03/2024 21:19:45" visibility="undefined">
+      <activity />
+    </item>
+    <item id="b1ecdf1f644141e392e8558ea41f8025" cid="ELEM004" type="control-flow" creation-date="11/03/2024 21:17:58" from="3b3566b7af664b4b9e7e64ba5f441d19" to="02d63eb986154072be8b50cef303ed33" visibility="package" guard="" weight="">
+      <control-flow from="3b3566b7af664b4b9e7e64ba5f441d19" to="02d63eb986154072be8b50cef303ed33" visibility="package" guard="" weight="" />
+    </item>
+    <item id="df33f59f45b448f1aa4cb1ec1029cb15" cid="ELEM006" type="control-flow" creation-date="11/03/2024 21:18:48" from="02d63eb986154072be8b50cef303ed33" to="7a7c4af799424fb7919509caaaba8998" visibility="package" guard="" weight="">
+      <control-flow from="02d63eb986154072be8b50cef303ed33" to="7a7c4af799424fb7919509caaaba8998" visibility="package" guard="" weight="" />
+    </item>
+    <item id="b93cd43f58a146ce97357049587e6c81" cid="ELEM002" type="control-flow" creation-date="11/03/2024 21:16:30" from="37024c4074f14a6b9d2ae65ad55b5866" to="3b3566b7af664b4b9e7e64ba5f441d19" visibility="package" guard="" weight="">
+      <control-flow from="37024c4074f14a6b9d2ae65ad55b5866" to="3b3566b7af664b4b9e7e64ba5f441d19" visibility="package" guard="" weight="" />
+    </item>
+    <item id="c500816fbe0548eb9f952b265cdf2e10" cid="ELEM010" type="control-flow" creation-date="11/03/2024 21:21:53" from="c6a3349e2e7741bf96a513888cfa0b54" to="74ad8111bfe545b2a85402f8b3bcda60" visibility="package" guard="" weight="">
+      <control-flow from="c6a3349e2e7741bf96a513888cfa0b54" to="74ad8111bfe545b2a85402f8b3bcda60" visibility="package" guard="" weight="" />
+    </item>
+    <item id="02d63eb986154072be8b50cef303ed33" cid="A002" type="activity" name="Enter grades and comments" creation-date="11/03/2024 21:17:02" visibility="undefined">
+      <activity />
+    </item>
+    <item id="8858c9d39ba74991bb9b09153ab5a891" cid="ELEM007" type="control-flow" creation-date="11/03/2024 21:20:37" from="7a7c4af799424fb7919509caaaba8998" to="c6a3349e2e7741bf96a513888cfa0b54" visibility="package" guard="" weight="">
+      <control-flow from="7a7c4af799424fb7919509caaaba8998" to="c6a3349e2e7741bf96a513888cfa0b54" visibility="package" guard="" weight="" />
+    </item>
+    <item id="37024c4074f14a6b9d2ae65ad55b5866" cid="IN001" type="initial-node" creation-date="11/03/2024 21:11:18" visibility="undefined" />
+    <item id="3b3566b7af664b4b9e7e64ba5f441d19" cid="A001" type="activity" name="Review Homework" creation-date="11/03/2024 21:14:48" visibility="undefined">
+      <activity />
+    </item>
+  </items>
+  <models>
+    <model id="pd8cfa46a0d774daabb5c3efe26967b04_774358756" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/03/2024 22:35:53</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-activity" id="p0934702749524a6693935ec2d089587d_515160105" name="Generate homwork" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/03/2024 22:35:53</creation-date>
+          <change-date>11/03/2024 22:35:56</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="8935480b58b6496487351154dced04a0" name="Default" visible="true" enabled="true" locked="false">
+          <item id="37024c4074f14a6b9d2ae65ad55b5866" iid="dc9df638e5184ef0a876b926696489dd" creation-date="11/03/2024 21:11:18" order-index="0" type="entity">
+            <layout name-position="-5,35" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="548" ay="58" awidth="25" aheight="25" x="548" y="58" width="25" height="25" />
+          </item>
+          <item id="3b3566b7af664b4b9e7e64ba5f441d19" iid="d826f11107264170810633cd49bd85a2" creation-date="11/03/2024 21:14:48" order-index="1" type="entity">
+            <layout ax="485" ay="158" awidth="151" aheight="53" x="485" y="158" width="100" height="50" expanded="485,158,151,53" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+            <activity />
+          </item>
+          <item id="b93cd43f58a146ce97357049587e6c81" iid="b6bf7f87d1264a7097857a2f4286a2f3" creation-date="11/03/2024 21:16:30" order-index="2" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="560" y1="83" x2="560" y2="158" start-border-pos="0.63" end-border-pos="0.12417218543046357" end-local-pos="75" name-position="0,20">
+              <points>
+                <point x="560" y="83" />
+                <point x="560" y="158" />
+              </points>
+            </layout>
+            <relation from="37024c4074f14a6b9d2ae65ad55b5866" from-iid="dc9df638e5184ef0a876b926696489dd" to="3b3566b7af664b4b9e7e64ba5f441d19" to-iid="d826f11107264170810633cd49bd85a2" />
+          </item>
+          <item id="02d63eb986154072be8b50cef303ed33" iid="7fc9b438c8294f9f9a0cf8cf94366fbf" creation-date="11/03/2024 21:17:02" order-index="3" type="entity">
+            <layout ax="452" ay="286" awidth="217" aheight="53" x="452" y="286" width="100" height="50" expanded="452,286,217,53" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+            <activity />
+          </item>
+          <item id="b1ecdf1f644141e392e8558ea41f8025" iid="5d9906a40ed64c7b8695b39cbe3e18c4" creation-date="11/03/2024 21:17:58" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="560" y1="211" x2="560" y2="286" start-border-pos="0.6258278145695364" end-border-pos="0.12442396313364056" start-local-pos="75" end-local-pos="108" name-position="0,20">
+              <points>
+                <point x="560" y="211" />
+                <point x="560" y="286" />
+              </points>
+            </layout>
+            <relation from="3b3566b7af664b4b9e7e64ba5f441d19" from-iid="d826f11107264170810633cd49bd85a2" to="02d63eb986154072be8b50cef303ed33" to-iid="7fc9b438c8294f9f9a0cf8cf94366fbf" />
+          </item>
+          <item id="7a7c4af799424fb7919509caaaba8998" iid="ab119be45a3843af9bda1b383c8938c3" creation-date="11/03/2024 21:18:13" order-index="5" type="entity">
+            <layout ax="496" ay="414" awidth="130" aheight="53" x="496" y="414" width="100" height="50" expanded="496,414,130,53" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+            <activity />
+          </item>
+          <item id="df33f59f45b448f1aa4cb1ec1029cb15" iid="84001fbd02704af79c61d4e0ca719640" creation-date="11/03/2024 21:18:48" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="560" y1="339" x2="561" y2="414" start-border-pos="0.6255760368663594" end-border-pos="0.125" start-local-pos="108" end-local-pos="65" name-position="0,20">
+              <points>
+                <point x="560" y="339" />
+                <point x="561" y="414" />
+              </points>
+            </layout>
+            <relation from="02d63eb986154072be8b50cef303ed33" from-iid="7fc9b438c8294f9f9a0cf8cf94366fbf" to="7a7c4af799424fb7919509caaaba8998" to-iid="ab119be45a3843af9bda1b383c8938c3" />
+          </item>
+          <item id="c6a3349e2e7741bf96a513888cfa0b54" iid="c6a9b937ea8f4ec79969d99f5ca18277" creation-date="11/03/2024 21:19:45" order-index="7" type="entity">
+            <layout ax="429" ay="542" awidth="263" aheight="53" x="429" y="542" width="100" height="50" expanded="429,542,263,53" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+            <activity />
+          </item>
+          <item id="8858c9d39ba74991bb9b09153ab5a891" iid="4d117047e967463688ad90e18109fca3" creation-date="11/03/2024 21:20:37" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="561" y1="467" x2="560" y2="542" start-border-pos="0.625" end-border-pos="0.12452471482889733" start-local-pos="65" end-local-pos="131" name-position="0,20">
+              <points>
+                <point x="561" y="467" />
+                <point x="560" y="542" />
+              </points>
+            </layout>
+            <relation from="7a7c4af799424fb7919509caaaba8998" from-iid="ab119be45a3843af9bda1b383c8938c3" to="c6a3349e2e7741bf96a513888cfa0b54" to-iid="c6a9b937ea8f4ec79969d99f5ca18277" />
+          </item>
+          <item id="74ad8111bfe545b2a85402f8b3bcda60" iid="62d0756b1aa043b18c353efdd7a069f4" creation-date="11/03/2024 21:21:37" order-index="9" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="548" ay="670" awidth="25" aheight="25" x="548.5" y="670" width="25" height="25" />
+          </item>
+          <item id="c500816fbe0548eb9f952b265cdf2e10" iid="d16a0c45faae4b6c95e59e4464d6b707" creation-date="11/03/2024 21:21:53" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="560" y1="595" x2="560" y2="670" start-border-pos="0.6254752851711026" end-border-pos="0.12" start-local-pos="131" name-position="0,20">
+              <points>
+                <point x="560" y="595" />
+                <point x="560" y="670" />
+              </points>
+            </layout>
+            <relation from="c6a3349e2e7741bf96a513888cfa0b54" from-iid="c6a9b937ea8f4ec79969d99f5ca18277" to="74ad8111bfe545b2a85402f8b3bcda60" to-iid="62d0756b1aa043b18c353efdd7a069f4" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
